@@ -1,0 +1,9 @@
+{ "name" : "pong"
+, "description" : "Basic pong learning example"
+, "version" : "0.0.1"
+, "author" : "Andre"
+, "repository" :
+  { "type" : "git"
+  , "url" : "http://github.com/aoschadlin/pong-node.git"
+  }
+}
