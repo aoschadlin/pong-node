@@ -3,6 +3,8 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+canvas { border: 1px solid black; }
+
 #chat { height: 400px; overflow: auto; border: 1px solid #eee; font: 13px Helvetica, Arial; }
 
 #chat p { padding: 8px; margin: 0; }

@@ -17,5 +17,16 @@ app.get('/', function(req, res) {
   });
 });
 
-app.listen(8000);
+app.post('/main', function(req, res) {
+  res.render('main', {
+    status: 'inside post'
+  });
+});
+
+var socket = io.listen(server);
+
+io.on('connection', function(client){
+});
+
+app.listen(8080);
 console.log('Server running on port %d', app.address().port);
